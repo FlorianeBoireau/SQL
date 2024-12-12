@@ -78,9 +78,9 @@
 
 -- PARTIE 3 DE L'ETAPE 3
 -- Dans la table edusign, afficher le nombre d’apprenantes par date.
-SELECT date_of_signature, COUNT(*) 
-FROM edusign
-GROUP BY date_of_signature;
+-- SELECT date_of_signature, COUNT(*) 
+-- FROM edusign
+-- GROUP BY date_of_signature;
 -- Compter le nombre de ligne au sein de la table edusign dont le prénom est Bella, le nom de la colonne finale doit être volume
 -- SELECT COUNT(*) 
 -- FROM edusign
